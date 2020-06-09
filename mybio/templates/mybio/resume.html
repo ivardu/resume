@@ -11,88 +11,88 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://use.fontawesome.com/a2fa0100dc.js"></script>
-    <script src="https://kit.fontawesome.com/0d12e37eba.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://kit.fontawesome.com/0d12e37eba.js" crossorigin="anonymous"></script> -->
 </head>
 <body>
-	<div class="container">
-		<div class="d-flex flex-row" id='mnrwbr'>
-			<div class="d-flex flex-column" id='navbarr'>
-				<div class="titblc">
-					<span class="ttsp"><a class="nv-link" href="#abtme">ABOUT ME</a></span>
+	<!-- <div class="d-flex flex-row" id='mnrwbr'> -->
+		<div class="d-flex flex-column align-items-center" id='navbarr'>
+			<div class="prf-img-blc">
+				<img class="img-thumbnail rounded-circle prf-pic" src="{% static 'male_profile_image.png' %}" >
+			</div>
+			<div class="titblc">
+				<span class="ttsp"><a class="nv-link" href="#abtme">ABOUT ME</a></span>
+			</div>
+			<div class="titblc">
+				<span class="ttsp"><a class="nv-link" href="#projects">PROJECTS</a></span>
+			</div>
+			<div class="titblc">
+				<span class="ttsp"><a class="nv-link" href="#skills">SKILLS</a></span>
+			</div>
+			<div class="titblc">
+				<span class="ttsp"><a class="nv-link" href="#workexp">WORK EXPERIENCE</a></span>
+			</div>
+			<div class="titblc">
+				<span class="ttsp"><a class="nv-link" href="#education">EDUCATION</a></span>
+			</div>
+			<div class="titblc">
+				<span class="ttsp "><a class="nv-link" href="#interest">INTERESTS</a></span>
+			</div>
+		</div>
+	<!-- </div> -->
+	<!-- <div id="cbar"> -->
+		<div class="d-flex flex-column p-1" id='mbar'>
+			<div class="d-flex flex-row rw" id='abtme'>
+				<div class="p-1">
+					<span class="small spabtt">Ravi Kumar D |</span>
 				</div>
-				<div class="titblc">
-					<span class="ttsp"><a class="nv-link" href="#projects">PROJECTS</a></span>
+				<div class="p-1">
+					<span class="small spabtt">d.ravikumar@hotmail.com |</span>
 				</div>
-				<div class="titblc">
-					<span class="ttsp"><a class="nv-link" href="#skills">SKILLS</a></span>
+				<div class="p-1">
+					<span class="small spabtt">895-148-1455</span>
 				</div>
-				<div class="titblc">
-					<span class="ttsp"><a class="nv-link" href="#workexp">WORK EXPERIENCE</a></span>
+			</div>	
+			<div class="p-1 mr-2">
+					<span class="">A passionate developer who seeks challenges in the form of complex business requirements and enjoys in solving them by providing optimal and elegant solutions </span>
+			</div>
+			<div class="d-flex flex-row">
+
+				<div class="sc-icons p-1 mr-2">
+					<span class="sncn"><i class="fa fa-linkedin"></i></span>
 				</div>
-				<div class="titblc">
-					<span class="ttsp"><a class="nv-link" href="#education">EDUCATION</a></span>
+				<div class="sc-icons p-1 mr-2">
+					<span class="sncn"><i class="fa fa-github"></i>
+					</span>
 				</div>
-				<div class="titblc">
-					<span class="ttsp "><a class="nv-link" href="#interest">INTERESTS</a></span>
+				<div class="sc-icons p-1 mr-2">
+					<span class="sncn"><i class="fa fa-twitter"></i></span>
 				</div>
 			</div>
-			<div class="d-flex flex-column p-3 col-md-8" id='cbar'>
-				<div class="row">
-					<div class="col-md-6" id='abtme'>
-						<div class="d-flex flex-row">
-							<div class="col-sm-5">
-								<img class="img-thumbnail rounded-circle" src="{% static 'male_profile_image.png' %}" width="150px" height="150px">
-							</div>
-							<div class="col-sm-6 prf-blc">
-								<div class="">
-									<span class="small">Ravi Kumar D</span>
-								</div>
-								<div class="">
-									<span class="small">d.ravikumar@hotmail.com</span>
-								</div>
-								<div class="">
-									<span class="small">895-148-1455</span>
-								</div>
-							</div>
-						</div>	
-					</div>	
-					<div class="col-md-6 d-flex align-items-end flex-column">
-						<div class="mt-auto d-flex flex-row">
-							<div class="sc-icons p-1 mr-2">
-								<span class="sncn"><i class="fab fa-linkedin"></i></i></span>
-							</div>
-							<div class="sc-icons p-1 mr-2">
-								<span class="sncn"><i class="fab fa-github"></i>
-								</span>
-							</div>
-							<div class="sc-icons p-1 mr-2">
-								<span class="sncn"><i class="fab fa-twitter"></i></span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		</div>
+	<!-- </div> -->
+	<div class="" id='mndat'>
+		<div class="d-flex flex-row" id='mncon'>
 			<div class="shadow-lg" id='rm-cnt'>
-				<div class="row ml-2 mt-3" id='projects'>
-					<div class="titblc">
-						<span class="" >PROJECTS</span>
+				<div class="" id='projects'>
+					<div class="col">
+						<span class="titblc" >PROJECTS</span>
 					</div>
-					<div class="titblc pt-3">
-						<span>Tapala</span>
+					<div class="col pt-3">
+						<span class="titblc">Tapala</span>
 						<p>
 							A social networking web-app built for users to share their posts, videos and accepting as well sending the friend requests through the registration and login process 
 						</p>
 					</div>
-					<div class="titblc">
-						<span>Ticklistt</span>
+					<div class="col">
+						<span class="titblc">Ticklistt</span>
 						<p>
 							An web application for creating the checklist to track the essentials or utilites respective to their need of tracking list in day to day activites, for eg., travel-aid items like BackPack, clothes, Soap, Shampoo, Brush etc., 
 						</p>
 					</div>
 				</div>
-				<div class="row pl-2" id='skills'>
+				<div class="" id='skills'>
 					<div class="col titblc">
 						<span class="">SKILLS</span>
 					</div>
@@ -106,7 +106,7 @@
 						</div>
 					</div>	
 				</div>
-				<div class="row pl-2" id='workexp'>
+				<div class="" id='workexp'>
 					<div class="col">
 						<span class="titblc">WORK EXPERIENCE</span>
 					</div>
@@ -124,7 +124,7 @@
 						</div>	
 					</div>
 				</div>
-				<div class="row pl-2" id='education'>
+				<div class="" id='education'>
 					<div class="col">
 						<span class="titblc">EDUCATION</span>
 					</div>
@@ -142,7 +142,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row ml-2" id="interest">
+				<div class="" id="interest">
 					<div class="col titblc">
 						<span >INTERESTS</span>	
 					</div>
