@@ -1,0 +1,118 @@
+#cbar{
+	left: 20vw;
+	width: 80vw;
+	height: 11rem;
+}
+#mbar{
+	position: fixed;
+	left: 20vw;
+	/*margin-left: 200px;*/
+	width: 80vw;
+	opacity: 1.0;
+	z-index: 10;
+	height: 11rem;
+	background-color: #fff;
+}
+#mnrwbr{
+	/*width: 20vw;*/
+	width: 20vw;
+	height: 100vh;
+}
+#navbarr{
+	top: 0;
+	padding: 1rem;
+	position: fixed;
+	/*margin-top: 10vh;*/
+	width: 20vw;
+	height: 100vh;
+	opacity: 1;
+	z-index: 10; 
+	background-color: #fff;
+}
+#rm-cnt{
+	/*margin-left: 10rem;*/
+	/*margin-top: 100px;*/
+	width: 100%;
+}
+
+#abtme, .rw{
+	/*height: 100%;*/
+}
+.prf-img-blc{
+	/*margin-left: 3rem;*/
+	background-color: #fff;
+	height: 15rem;
+	display: block;
+}
+
+.prf-pic{
+	width: 10rem;
+	height: 10rem;
+}
+.mnblc{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	/*text-align: middle;*/
+	/*vertical-align: middle;*/
+	/*text-align: center;*/
+	/*line-height: 50px*/
+}
+#mndat{
+	position: absolute;
+	top: 11rem;
+	left: 20vw;
+	width: 75vw;
+}
+#mncon{
+	width: 75vw;
+}
+.cls{
+	/*position: relative;*/
+}
+.titblc{
+	display: block;
+	padding-top: 10px;
+}
+.sc-icons{
+	/*line-height: 150px;*/
+	/*vertical-align: text-bottom;*/
+	vertical-align: text-bottom;
+}
+
+
+.ttsp{
+	color: #808080;
+}
+.ttsp:hover, .nv-link:hover{
+	cursor: pointer;
+	text-shadow: 2px 7px 5px rgba(0,0,0,0.3); 
+    /*0px -4px 10px rgba(255,255,255,0.3);*/
+	color: #000;
+}
+
+.sncn{
+	font-size: 25px;
+	cursor: pointer;
+	color: #808080;
+}
+
+.sncn:hover{
+	font-size: 25px;
+	cursor: pointer;
+	color: #00acee;
+}
+
+.nv-link{
+	color: #808080;
+
+}
+
+#skills, #interest, #workexp, #education, #skills, #projects{
+	width: 100%;
+	height: 60%;
+}
+
+.spabtt{
+	font-size: 1.5rem;
+}
