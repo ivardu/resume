@@ -11,153 +11,263 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <script src="https://kit.fontawesome.com/0d12e37eba.js" crossorigin="anonymous"></script> -->
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800;900&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0d12e37eba.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!-- <div class="d-flex flex-row" id='mnrwbr'> -->
 		<div class="d-flex flex-column align-items-center" id='navbarr'>
 			<div class="prf-img-blc">
-				<img class="img-thumbnail rounded-circle prf-pic" src="{% static 'male_profile_image.png' %}" >
+				<img class="img-thumbnail rounded-circle prf-pic" src="{% static 'male_profile_image.jpg' %}" >
 			</div>
 			<div class="titblc">
-				<span class="ttsp"><a class="nv-link" href="#abtme">ABOUT ME</a></span>
+				<span class="ttsp"><a class="nv-link abtm" href="#abtme">ABOUT ME</a></span>
 			</div>
 			<div class="titblc">
-				<span class="ttsp"><a class="nv-link" href="#projects">PROJECTS</a></span>
+				<span class="ttsp"><a class="nv-link prj" href="#projects">PROJECTS</a></span>
 			</div>
 			<div class="titblc">
-				<span class="ttsp"><a class="nv-link" href="#skills">SKILLS</a></span>
+				<span class="ttsp"><a class="nv-link ski" href="#skills">SKILLS</a></span>
 			</div>
 			<div class="titblc">
-				<span class="ttsp"><a class="nv-link" href="#workexp">WORK EXPERIENCE</a></span>
+				<span class="ttsp"><a class="nv-link wexp" href="#workexp">WORK EXPERIENCE</a></span>
 			</div>
 			<div class="titblc">
-				<span class="ttsp"><a class="nv-link" href="#education">EDUCATION</a></span>
+				<span class="ttsp"><a class="nv-link edu" href="#education">EDUCATION</a></span>
 			</div>
 			<div class="titblc">
-				<span class="ttsp "><a class="nv-link" href="#interest">INTERESTS</a></span>
+				<span class="ttsp "><a class="nv-link int" href="#interest">INTERESTS</a></span>
 			</div>
 		</div>
 	<!-- </div> -->
 	<!-- <div id="cbar"> -->
-		<div class="d-flex flex-column p-1" id='mbar'>
+		<div class="d-flex flex-column p-3" id='mbar'>
 			<div class="d-flex flex-row rw" id='abtme'>
 				<div class="p-1">
-					<span class="small spabtt">Ravi Kumar D |</span>
+					<span class="small spabtt">Ravi Kumar D </span>
 				</div>
 				<div class="p-1">
-					<span class="small spabtt">d.ravikumar@hotmail.com |</span>
+					<span class="small spabts">| Email: ivardu19@gmail.com</span>
 				</div>
 				<div class="p-1">
-					<span class="small spabtt">895-148-1455</span>
+					<span class="small spabtt"></span>
 				</div>
-			</div>	
-			<div class="p-1 mr-2">
-					<span class="">A passionate developer who seeks challenges in the form of complex business requirements and enjoys in solving them by providing optimal and elegant solutions </span>
+				<div id="flwme" class="d-flex flex-row ml-auto">
+					<div class="sc-icons p-1 mr-2">
+						<span class="sncn"><a class="alnk" href="https://www.linkedin.com/in/ramukivard/"><i class="fa fa-linkedin"></i></a></span>
+					</div>
+					<div class="sc-icons p-1 mr-2">
+						<span class="sncn"><a class="alng" href="https://github.com/ivardu"><i class="fa fa-github"></i></a>
+						</span>
+					</div>
+					<div class="sc-icons p-1 mr-2">
+						<span class="sncn"><a class="alnk" href="https://twitter.com/d_ravikumar"><i class="fa fa-twitter"></i></a></span>
+					</div>
+				</div>
 			</div>
-			<div class="d-flex flex-row">
 
-				<div class="sc-icons p-1 mr-2">
-					<span class="sncn"><i class="fa fa-linkedin"></i></span>
-				</div>
-				<div class="sc-icons p-1 mr-2">
-					<span class="sncn"><i class="fa fa-github"></i>
-					</span>
-				</div>
-				<div class="sc-icons p-1 mr-2">
-					<span class="sncn"><i class="fa fa-twitter"></i></span>
-				</div>
+			<div class="p-1">
+					<span class="explntin">A passionate developer who seeks challenges in the form of complex business requirements and enjoys in solving them by providing optimal and elegant solutions </span>
+					<hr>
 			</div>
+			
 		</div>
 	<!-- </div> -->
 	<div class="" id='mndat'>
 		<div class="d-flex flex-row" id='mncon'>
-			<div class="shadow-lg" id='rm-cnt'>
+			<div class="" id='rm-cnt'>
 				<div class="" id='projects'>
 					<div class="col">
-						<span class="titblc" >PROJECTS</span>
+						<span class="titl">PROJECTS<i class="icn pl-3 fas fa-project-diagram"></i></span>
 					</div>
-					<div class="col pt-3">
-						<span class="titblc">Tapala</span>
-						<p>
-							A social networking web-app built for users to share their posts, videos and accepting as well sending the friend requests through the registration and login process 
+					<div class="col">
+						<span class="titbl"><a href="https://tapala.herokuapp.com/"><img class="lg-img" src="{%static 'tapala.png' %}"></a></span> 
+						<p class="explntin">
+							A social networking web-app built for users to share their posts, videos also allows the users to connect with their friends by accepting as well sending the friend requests through the registration and login process.
 						</p>
 					</div>
 					<div class="col">
-						<span class="titblc">Ticklistt</span>
-						<p>
-							An web application for creating the checklist to track the essentials or utilites respective to their need of tracking list in day to day activites, for eg., travel-aid items like BackPack, clothes, Soap, Shampoo, Brush etc., 
+						<span class="titbl"><a href="https://ticklistt.herokuapp.com/"><img class="lg-img" src="{%static 'ticklistt.png' %}"></a></span>
+						<p class="explntin">
+							An web application for creating the checklist to track the essentials or utilites respective to their needs, for eg., travel-aid items like BackPack, clothes, Soap, Shampoo, Brush etc., 
 						</p>
 					</div>
 				</div>
 				<div class="" id='skills'>
-					<div class="col titblc">
-						<span class="">SKILLS</span>
+					<div class="col">
+						<span class="titl">SKILLS<i class="pl-3 icn fas fa-laptop-code"></i></span>
 					</div>
 					<div class="w-100"></div>
-					<div class="col"></div>
-					<div class="col-sm-11">
-						<div class="titblc">
-							<span>
-								Python>=3.6, Django>2.1, HTML5, CSS, Jquery, Bootstrap>4.4, Git, Heroku, AWS  
-							</span>
-						</div>
+					<div class="d-flex flex-column pl-3">
+						<!-- <div class="titblc"> -->
+							<span class="skicn">Python, Django <i class="fab fa-python"></i></span>
+							<span class="skicn">HTML5 <i class="fab fa-html5"></i>, CSS <i class="fab fa-css3-alt"></i>, Bootstrap <i class="fab fa-bootstrap"></i>, Jquery <i class="fab fa-js"></i></span>
+							<span class="skicn"></span>
+							<span class="skicn">Git <i class="fab fa-git-alt"></i> <i class="fab fa-github"></i>, Heroku, AWS <i class="fab fa-aws"></i> </span>
+							<span class="skicn"></span>
+							<span class="skicn"></span>
+						<!-- </div> -->
 					</div>	
 				</div>
 				<div class="" id='workexp'>
 					<div class="col">
-						<span class="titblc">WORK EXPERIENCE</span>
+						<span class="titl">WORK EXPERIENCE<i class="pl-3 icn fas fa-briefcase"> (6.5 Yrs)</i></span>
 					</div>
 					<div class="w-100"></div>
-					<div class="col"></div>
-					<div class="col-sm-11 pr-2">
-						<div class="">
-							<span class="titblc">HCL Technologies</span>
+					<div class="d-flex flex-column pl-3">
+						<div class="d-flex flex-row">
+							<div>
+								<span class="sbtitblc">HCL Technologies</span>
+							</div>
+							<div class="ml-auto">
+								<span class="drcls">July 2017 - Present</span>
+							</div>
 						</div>
-						<div class="">
-							<span class="titblc">Lowe's</span>
+						<div>
+							<span class="ssbtitblc">Senior Specialist</span>
 						</div>
-						<div class="">
-							<span class="titblc">CGI</span>
-						</div>	
+						<div>
+							<span class="explntin">Working with critical business production application teams on requirements gathering for APM implementation and providing them with a monitoring solution which helps them to analyse their apps performance, availability, load vs response time various metrics to determine the RCA. Also, working with the respective teams and helping them to fix the performance issues of the applications.</span>
+						</div>
+					</div>
+					<div class="d-flex flex-column pl-3">
+						<div class="d-flex flex-row">
+							<div>
+								<span class="sbtitblc">Lowe's</span>
+							</div>
+							<div class="ml-auto">
+								<span class="drcls">November 2016 - July 2017</span>
+							</div>
+						</div>
+						<div>
+							<span class="ssbtitblc">Analyst</span>
+						</div>
+						<div>
+							<span class="explntin">Being a part of the Performance Monitoring team for realtime critical bussiness production applications, analysing their trends of the performance, availabilty, load vs response time various metrics to determine the RCA and documenting the issues. Then, working with the respective teams and helping them to fix the incidents.</span>
+						</div>
+					</div>
+					<div class="d-flex flex-column pl-3">
+						<div class="d-flex flex-row">
+							<div>
+								<span class="sbtitblc">CGI</span>
+							</div>
+							<div class="ml-auto">
+								<span class="drcls">December 2013 - November 2016</span>
+							</div>
+						</div>
+						<div>
+							<span class="ssbtitblc">Software Engineer</span>
+						</div>
+						<div>
+							<span class="explntin">Following the SDLC life cycle in gathering the monitoring requirements from the clients and delivering them monitoring implementation of their needs on timely manner. Providing the KT sessions for clients and respective app's team on the APM tools and also in addition supporting the existing monitoring setup. </span>
+						</div>
 					</div>
 				</div>
 				<div class="" id='education'>
 					<div class="col">
-						<span class="titblc">EDUCATION</span>
+						<span class="titl">EDUCATION<i class="pl-3 icn fas fa-graduation-cap"></i></span>
 					</div>
 					<div class="w-100"></div>
 					<div class="col"></div>
-					<div class="col-sm-11">
-						<div class="titblc">
-							<span>SRI RAM ENGINEERING COLLEGE/ANNA UNIVERSITY - 2012</span>
+					<div class="pl-3 pt-3 d-flex flex-column">
+						<div class="d-flex flex-row">
+							<div>
+								<span class="sbtitblc">ANNA UNIVERSITY</span>
+							</div>
+							<div class="ml-auto">
+								<span class="drcls">Sept 2008 - April 2012</span>
+							</div>
 						</div>
-						<div class="titblc">
-							<span>A.P BOARD OF INTERMEDIATE EDUCATION  - 2008</span>
+						<div>
+							<span class="ssbtitblc">Bachelor of Engineering</span>
 						</div>
-						<div class="titblc">
-							<span>A.P BOARD OF SECONDARY EDUCATION  - 2006</span>
+						<div class="pt-3">
+							<span>Computer Science and Engineering</span>
+						</div>
+						<div class="">
+							<span>GPA:7.52</span>
+						</div>
+					</div>
+					<div class="pt-3 pl-3 d-flex flex-column">
+						<div class="d-flex flex-row">
+							<div>
+								<span class="sbtitblc">A.P BOARD OF INTERMEDIATE EDUCATION</span>
+							</div>
+							<div class="ml-auto">
+								<span class="drcls">May 2006 - March 2008</span>
+							</div>
+						</div>
+						<div>
+							<span class="ssbtitblc">Higher Secondary School</span>
+						</div>
+						<div class="pt-3">
+							<span>Mathematics, Physics and Chemistry</span>
+						</div>
+						<div class="">
+							<span>GPA:7.52</span>
+						</div>
+					</div>
+					<div class="pt-3 pl-3 d-flex flex-column">
+						<div class="d-flex flex-row">
+							<div>
+								<span class="sbtitblc">A.P BOARD OF SECONDARY EDUCATION</span>
+							</div>
+							<div class="ml-auto">
+								<span class="drcls">April 2005 - March 2006</span>
+							</div>
+						</div>
+						<div>
+							<span class="ssbtitblc">Secondary School</span>
+						</div>
+						<div class="pt-3">
+							<span>Mathematics, Science, Biology and Social Studies</span>
+						</div>
+						<div class="">
+							<span>GPA:7.52</span>
 						</div>
 					</div>
 				</div>
 				<div class="" id="interest">
 					<div class="col titblc">
-						<span >INTERESTS</span>	
+						<span class="titl">INTERESTS<i class="pl-3 icn fas fa-heart"></i></span>	
 					</div>
 					<div class="w-100"></div>
-					<div class="col">
-						<span>
-							Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-
-							When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+					<div class="col pt-3">
+						<span class="explntin">
+							I enjoy myself spending outdors by taking roadtrips, bike-rides. I'm a Traveller love to visit the places and capture them through the Photography and Videos then vlogging, sharing them as stories of the people, culture and the places. When I'm at home love spending time with family and try cooking new dishes, learning guitar, watching Sci-fi movies, browsing through the tons of videos on technologies, also the one's which give answers to my day to day questions poked in my mind.
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		$('.abtm').on('click', function() {
+			// body...
+			$('#mbar').css({
+				'-webkit-box-shadow':'0 0 0.5rem 1.1rem #dff7e5', 
+				'-moz-box-shadow': '0 0 0.5rem 1.1rem #dff7e5',
+				'box-shadow':'0 0 0.5rem 1.1rem #dff7e5',
+			})
+		});
+		
+		$(".prj, .ski, .edu, .int, .wexp").on('click', function(){
+			// , 
+			// console.log($('#mbar'));
+			$('#mbar').css({
+				'-webkit-box-shadow':'', 
+				'-moz-box-shadow': '',
+				'box-shadow':'',
+			});
+		});
+		
+	</script>
 
 </body>
 </html>

@@ -1,13 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #cbar{
 	left: 20vw;
-	width: 80vw;
-	height: 11rem;
+	width: 70vw;
+	height: 10rem;
 }
 #mbar{
 	position: fixed;
 	left: 20vw;
 	/*margin-left: 200px;*/
-	width: 80vw;
+	width: 70vw;
 	opacity: 1.0;
 	z-index: 10;
 	height: 11rem;
@@ -18,6 +22,9 @@
 	width: 20vw;
 	height: 100vh;
 }
+#flwme{
+	right: 0;
+}
 #navbarr{
 	top: 0;
 	padding: 1rem;
@@ -27,7 +34,7 @@
 	height: 100vh;
 	opacity: 1;
 	z-index: 10; 
-	background-color: #fff;
+	background-color: #F5F5F5;
 }
 #rm-cnt{
 	/*margin-left: 10rem;*/
@@ -40,7 +47,6 @@
 }
 .prf-img-blc{
 	/*margin-left: 3rem;*/
-	background-color: #fff;
 	height: 15rem;
 	display: block;
 }
@@ -60,24 +66,49 @@
 }
 #mndat{
 	position: absolute;
-	top: 11rem;
+	/*top: 11rem;*/
 	left: 20vw;
-	width: 75vw;
+	width: 70vw;
 }
 #mncon{
-	width: 75vw;
+	width: 70vw;
 }
 .cls{
 	/*position: relative;*/
 }
 .titblc{
 	display: block;
-	padding-top: 10px;
+	padding-top: 1rem;
+	font-size: 1rem;
+}
+.sbtitblc{
+	display: block;
+	padding-top: 1rem;
+	font-size: 1.7rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.ssbtitblc{
+	display: block;
+	font-size: 1.4rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color:#808080;
+}
+.titl{
+	display: block;
+	padding-top: 1rem;
+	font-size: 2.2rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.titbl{
+	display: inline-flex;
 }
 .sc-icons{
 	/*line-height: 150px;*/
 	/*vertical-align: text-bottom;*/
 	vertical-align: text-bottom;
+}
+.drcls{
+	line-height: 3.7rem;
 }
 
 
@@ -91,17 +122,34 @@
 	color: #000;
 }
 
-.sncn{
+.alng, .alnk, .sncn{
 	font-size: 25px;
 	cursor: pointer;
 	color: #808080;
 }
 
-.sncn:hover{
+.alnk:hover, .sncn:hover{
 	font-size: 25px;
 	cursor: pointer;
 	color: #00acee;
 }
+.alng:hover{
+	cursor: pointer;
+	color: #000;
+}
+
+.skicn{
+	font-size: 30px;
+	/*cursor: pointer;*/
+	padding-top: 1rem; 
+	color: #808080;
+}
+
+/*.skicn:hover{
+	font-size: 30px;
+	cursor: pointer;
+	color: #00acee;
+}*/
 
 .nv-link{
 	color: #808080;
@@ -109,10 +157,32 @@
 }
 
 #skills, #interest, #workexp, #education, #skills, #projects{
+	padding-top:11rem; 
 	width: 100%;
-	height: 60%;
+	min-height: 100vh;
 }
 
 .spabtt{
-	font-size: 1.5rem;
+	font-size: 2.4rem;
+	font-family: 'Saira Extra Condensed', sans-serif;
 }
+
+.spabts{
+	font-size: 1rem; 
+	line-height: 3.7rem;
+}
+
+.lg-img{
+	width: 8rem;
+	height: 7rem;
+}
+
+.icn{
+	font-size: 1.2rem;
+}
+
+.explntin{
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
